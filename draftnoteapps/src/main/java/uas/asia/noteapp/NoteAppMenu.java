@@ -56,7 +56,7 @@ public class NoteAppMenu {
     
     private void addNote() {
         System.out.print("Enter note: ");
-        if(scanner.hasNextInt()||scanner.hasNextLine()){
+        if(scanner.hasNextInt()){
             scanner.nextLine();
         }
         String note = scanner.nextLine();
